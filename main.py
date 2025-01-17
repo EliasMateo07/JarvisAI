@@ -1,7 +1,6 @@
 from openai import OpenAI
 from TextToSpeech import ElevenLabsManager
 
-OPENAI_API_KEY = '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'
 client = OpenAI(api_key=OPENAI_API_KEY)
 elevenlabs_manager = ElevenLabsManager(voice_id='z2yDY6z1EKG9sX4eFKeF')
 
